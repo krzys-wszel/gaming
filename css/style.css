@@ -139,17 +139,21 @@ NAVBAR
     background: #080f17;
     text-align: -webkit-center;
 }
-.collapse a {
-    margin: auto;
-}
+
 .collapse:after {
     border: 1px solid #fcc153;
     height: 2px;
     width: 100%;
 }
+ 
+.navbar-collapse { 
+    height: auto;
+    min-height: fit-content;
 }
-
-.navbar-toggle {
+.navbar-collapse a {
+    padding-top: 15px;
+}
+    .navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
