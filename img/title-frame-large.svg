@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="550px" height="78px" viewBox="0 0 550 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>h-bgframe-550</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0A3F74" offset="0%"></stop>
+            <stop stop-color="#0C1D2E" offset="100%"></stop>
+        </linearGradient>
+        <path d="M220,0.046 L215.003,5.042 L0.202,5.042 L0.202,6.041 L439.798,6.041 L439.798,5.042 L224.996,5.042 L220,0.046 Z M0.202,72.004 L0.202,73.004 L215.003,73.004 L220,78 L224.996,73.004 L439.798,73.004 L439.798,72.004 L0.202,72.004 Z" id="path-2"></path>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="52.3189126%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Home-Desktop-HD" transform="translate(-445.000000, -840.000000)">
+            <g id="content" transform="translate(0.000000, 248.000000)">
+                <g id="druzyny-youtuberow" transform="translate(0.000000, 591.000000)">
+                    <g id="title">
+                        <g id="h-bgframe-550" transform="translate(445.000000, 0.000000)">
+                            <polygon id="Fill-1" fill="#FBC052" points="22.1274 9.9981 14.1314 17.9931 14.1314 25.8461 0.0004 39.9781 14.1314 54.1101 14.1314 61.9621 22.1274 69.9551 527.8764 69.9551 535.8694 61.9621 535.8694 54.1101 549.9994 39.9771 535.8694 25.8461 535.8694 17.9931 527.8764 9.9981"></polygon>
+                            <polygon id="Fill-2" fill="url(#linearGradient-1)" points="534.8693 18.4055 527.4623 10.9965 22.5403 10.9965 15.1303 18.4055 15.1303 26.2595 15.1303 35.9795 19.1283 39.9765 15.1303 43.9755 15.1303 53.6965 15.1303 61.5495 22.5403 68.9575 527.4623 68.9575 534.8693 61.5495 534.8693 53.6965 534.8693 43.9755 530.8713 39.9765 534.8693 35.9795 534.8693 26.2595"></polygon>
+                            <g id="Group-5" transform="translate(55.000000, 0.954300)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <g id="Clip-4"></g>
+                                <path d="M220,0.046 L215.003,5.042 L0.202,5.042 L0.202,6.041 L439.798,6.041 L439.798,5.042 L224.996,5.042 L220,0.046 Z M0.202,72.004 L0.202,73.004 L215.003,73.004 L220,78 L224.996,73.004 L439.798,73.004 L439.798,72.004 L0.202,72.004 Z" id="Fill-3" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
