@@ -41,6 +41,27 @@ body {
     overflow-x: hidden;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #fcc153;
+}
+
 .header {
     background: url("../img/background.jpg") no-repeat center;
     background-size: cover;
@@ -55,10 +76,7 @@ body {
     justify-content: center;
 }
 
-.header-logo {
-       
-
-}
+.header-logo {}
 
 .header-logo img {
     display: block;
@@ -98,9 +116,27 @@ body {
     margin: 0;
 }
 
+.logo-big {
+    width: 430px;
+    height: 469px;
+    object-fit: contain;
+}
+
+
 /*-------------------------------------------------
 NAVBAR
 ----------------------------------------------*/
+.nav-active {
+    width: 161px;
+    height: 5px;
+    object-fit: contain;
+    background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
+   
+    top: 88px;
+      position: relative;
+    right: 255px;
+}
+
 
 .navbar {
     width: 100%;
@@ -108,7 +144,6 @@ NAVBAR
     background-color: #080f17;
     margin-bottom: 0;
 }
-
 .navbar-inverse .navbar-nav > li > a {
     color: white;
     font-family: BebasNeue;
@@ -123,7 +158,9 @@ NAVBAR
     color: #ffffff;
     padding-top: 50px;
 }
-
+.navbar-inverse {
+   background: #080f17; 
+}
 .navbar-brand {
     background: url('../img/logo.jpg') center / contain no-repeat;
     width: 200px;
@@ -134,10 +171,30 @@ NAVBAR
     width: 138px;
     height: 150px;
 }
+@media (min-width: 1200px) {
+    .navbar-right {
+        padding-right: 198px;
+    }
+
+    .navbar-left {
+        padding-left: 185px;
+    }
+
+}
+@media (max-width: 1200px) {
+    .navbar-right {
+
+        padding-right: 0px;
+    }
+
+    .navbar-left {
+        padding-left: 0px;
+    }
+}
 
 .collapse {
     background: #080f17;
-    text-align: -webkit-center;
+    /* text-align: -webkit-center;*/
 }
 
 .collapse:after {
@@ -145,15 +202,36 @@ NAVBAR
     height: 2px;
     width: 100%;
 }
- 
-.navbar-collapse { 
+
+@media (max-width: 767px) {
+
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
+        font-family: BebasNeue;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        /* text-align: right;*/
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-top: 10px;
+    }
+}
+
+.navbar-collapse {
     height: auto;
     min-height: fit-content;
 }
+
 .navbar-collapse a {
     padding-top: 15px;
 }
-    .navbar-toggle {
+
+.navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -166,9 +244,7 @@ NAVBAR
     border-radius: 4px;
 }
 
-.navbar-inverse .navbar-nav > .ul-2 > li > a:last-child {
-    margin-right: 10px;
-}
+
 
 @media (max-width: 992px) {
 
@@ -176,20 +252,22 @@ NAVBAR
         padding-top: 150px;
     }
 }
+
 @media (min-width: 768px) {
     .header-title-1 {
         font-size: 40px;
         margin-bottom: 15px;
     }
+
     .header-titles {
-    /*  height: 100%;*/
-    /* display: flex;*/
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-top: 75px;
-}
-     
+        /*  height: 100%;*/
+        /* display: flex;*/
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 75px;
+    }
+
 
     .header-title-2 {
         font-size: 81px;
@@ -631,7 +709,12 @@ NAVBAR
 
     .team-1 {
         width: max-content;
-        margin-inline-start: -65px;
+        /* margin-inline-start: -65px;*
+            width: max-content;
+    /* margin-inline-start: -65px; */
+        /* display: flex; */
+        position: relative;
+        left: -66px;
     }
 }
 
@@ -710,7 +793,7 @@ NAVBAR
     text-align: left;
     color: #ffffff;
     margin-top: -5px;
-     padding-left: 15px;
+    padding-left: 15px;
 }
 
 .news p {
@@ -725,7 +808,7 @@ NAVBAR
     color: #ffffff;
     padding-bottom: 20px;
     padding-top: 20px;
-     padding-left: 15px;
+    padding-left: 15px;
 }
 
 @media (max-width: 976px) {
@@ -743,5 +826,10 @@ NAVBAR
     .news_5,
     .news_6 {
         display: none;
+    }
+}
+@media (max-width: 767px) {
+    .section-title-large .section-title-background {
+        background: url(../img/title-frame-medium.svg) no-repeat center;
     }
 }
