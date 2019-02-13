@@ -810,7 +810,23 @@ NAVBAR
     padding-top: 20px;
     padding-left: 15px;
 }
-
+.anime {
+-webkit-animation: cssAnimation 1s 200 ease;
+-moz-animation: cssAnimation 1s 200 ease;
+-o-animation: cssAnimation 1s 200 ease;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px); }
+to { -webkit-transform: rotate(0deg) scale(0.668) skew(-1deg) translate(7px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px); }
+to { -moz-transform: rotate(0deg) scale(0.668) skew(-1deg) translate(7px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px); }
+to { -o-transform: rotate(0deg) scale(0.668) skew(-1deg) translate(7px); }
+}
 @media (max-width: 976px) {
 
     .news_5,
@@ -832,4 +848,7 @@ NAVBAR
     .section-title-large .section-title-background {
         background: url(../img/title-frame-medium.svg) no-repeat center;
     }
+    .nav-active ,.nav-active_p , .nav-active_s ,  .nav-active_r , .nav-active_t {
+    display: none;
+}
 }
