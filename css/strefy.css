@@ -9,7 +9,7 @@
     padding: 5px 0;
     top: -100px;
     padding-top: 0px;
-    
+
 }
 
 
@@ -78,35 +78,39 @@
     left: -21px;
     transform: rotate(-135deg);
 }
+
 .strefy h1 {
-     font-family: RobotoSlab;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: 1.1px;
-  text-align: center;
-  color: #ffffff;
+    font-family: RobotoSlab;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #ffffff;
     padding: 50px;
 }
- .strefy-image {
+
+.strefy-image {
     overflow: hidden;
     margin-bottom: 30px;
     background-image: url(/img/assasin.jpg);
-      margin-bottom: -5px;
+    margin-bottom: -5px;
 }
 
 .strefy-image img {
     display: block;
     width: 100%;
-       
+
 }
 
-@media (max-width: 976px) {
-  
-    
+.section-title   {
+   margin-top: -313px; 
 }
+
+@media (max-width: 976px) {}
+
 /*@media (max-width: 767px) {
    .section-title-large .section-title-background {
     background: url(../img/title-frame-large.svg) no-repeat center;
@@ -121,19 +125,14 @@
 }
 
 
+@media (max-width: 767px) {
+    .section-title-large .section-title-background {
+        background: url(../img/title-frame-medium.svg) no-repeat center;
+    }
+
+    .section-title {
+        margin-top: -250px;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
