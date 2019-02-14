@@ -72,12 +72,13 @@ body {
     background: url("../img/background.jpg") no-repeat center;
     background-size: cover;
     min-height: calc(100vh + 40px);
-    padding: 60px;
+   /* padding: 60px;*/
     display: flex;
     align-items: center;
+    padding-bottom: 70px;
 }
 
-
+ 
 .header .row {
     justify-content: center;
 }
@@ -268,7 +269,12 @@ NAVBAR
         padding-top: 150px;
     }
 }
+@media (max-width: 400px) {
 
+    .header-logo img {
+        padding-top: 160px;
+    }
+}
 @media (min-width: 768px) {
     .header-title-1 {
         font-size: 40px;
@@ -320,7 +326,7 @@ NAVBAR
 @media (min-width: 1200px) {
     .header-titles {
         text-align: left;
-        padding-top: 150px;
+        padding-top: 200px;
     }
 
     .header-title-1 {
@@ -562,6 +568,7 @@ NAVBAR
     top: 0;
     transition: top .3s;
     margin-top: 35px;
+    left: -2px;
 }
 
 .button:hover,
@@ -864,7 +871,13 @@ to { -o-transform: rotate(0deg) scale(0.668) skew(-1deg) translate(7px); }
     .section-title-large .section-title-background {
         background: url(../img/title-frame-medium.svg) no-repeat center;
     }
-    .nav-active ,.nav-active_p , .nav-active_s ,  .nav-active_r , .nav-active_t {
+  /*  .nav-active ,.nav-active_p , .nav-active_s ,  .nav-active_r , .nav-active_t {
     display: none;
+}*/
 }
-}
+
+/*@media (max-width: 400px){
+.section-title-large .section-title-background {
+     background: url(../img/title-frame-small.svg) no-repeat center;}
+}*/
+
