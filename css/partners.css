@@ -1,3 +1,9 @@
+@media (min-width: 767px){
+.box {
+    position: relative;
+    left: -13px;
+}
+}
 .nav-active_p {
     width: 161px;
     height: 5px;
@@ -6,9 +12,33 @@
    
     top: 88px;
       position: relative;
-    right: -255px;
+    right: -277px;
 }
 
+@media (max-width: 1200px) {
+.nav-active_p {
+    width: 148px;
+    height: 5px;
+    object-fit: contain;
+    background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
+   
+    top: 88px;
+      position: relative;
+    right: -238px;
+}
+}
+@media (min-width: 992px) and (max-width:1199px) {
+.nav-active_p {
+    width: 148px;
+    height: 5px;
+    object-fit: contain;
+    background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
+   
+    top: 88px;
+      position: relative;
+    right: -480px;
+}
+}
 .partners {
     border: 2px solid #fcc153;
     background-image: radial-gradient(circle at 50% 50%, #1c3650, #0c1b2a);

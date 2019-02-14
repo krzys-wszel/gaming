@@ -1,3 +1,9 @@
+@media (min-width: 767px){
+.box {
+    position: relative;
+    left: -18px;
+}
+}
 .nav-active_t {
     width: 100px;
     height: 5px;
@@ -9,27 +15,33 @@
     right: -395px;
 }
 
-.nav-active_3 {
-    width: 100px;
+ 
+
+@media (max-width: 1200px) {
+.nav-active_t {
+    width: 90px;
     height: 5px;
     object-fit: contain;
     background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
-
+   
     top: 88px;
-    position: relative;
-    right: -374px;
+      position: relative;
+    right: -350px;
 }
-
-.nav-active_4 {
-    width: 100px;
+}
+@media (min-width: 992px) and (max-width:1199px) {
+.nav-active_t {
+    width: 90px;
     height: 5px;
     object-fit: contain;
     background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
-
+   
     top: 88px;
-    position: relative;
-    right: -374px;
+      position: relative;
+    right: -592px;
 }
+}
+
 
 
 .tickets {
@@ -368,7 +380,7 @@ p {
 .t_5 h3 {
     background-color: #0b1927;
     margin-top: 15px;
-    margin-bottom: 150px;
+   /* margin-bottom: 150px;*/
     font-family: BebasNeue;
     font-size: 18px;
     font-weight: bold;
