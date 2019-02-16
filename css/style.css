@@ -521,6 +521,7 @@ NAVBAR
     padding: 120px 0;
     font-family: Roboto, sans-serif;
     text-align: -webkit-center;
+    margin-right: -20px;
 }
 
 .contact .row {
