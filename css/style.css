@@ -220,6 +220,7 @@ NAVBAR
 .collapse {
     background: #080f17;
     /* text-align: -webkit-center;*/
+    transition: 1.5s;
 }
 
 .collapse:after {
@@ -229,7 +230,9 @@ NAVBAR
 }
 
 @media (max-width: 767px) {
-
+    .navbar-inverse .navbar-nav .li {
+        padding-top: 100px;
+    }
 
     .navbar-inverse .navbar-nav > li > a {
         color: white;
@@ -244,12 +247,18 @@ NAVBAR
         text-transform: uppercase;
         color: #ffffff;
         padding-top: 10px;
+            text-align: -webkit-center;
+    }
+    
+    .nav-active , .nav-active_p , .nav-active_r , .nav-active_s , .nav-active_t {
+        display: none;
     }
 }
 
 .navbar-collapse {
     height: auto;
     min-height: fit-content;
+
 }
 
 .navbar-collapse a {
@@ -747,7 +756,7 @@ NAVBAR
     /* margin-inline-start: -65px; */
         /* display: flex; */
         position: relative;
-        left: -66px;
+        left: -53px;
     }
 }
 

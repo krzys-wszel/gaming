@@ -1,9 +1,10 @@
-@media (min-width: 767px){
-.box {
-    position: relative;
-    left: -18px;
+@media (min-width: 767px) {
+    .box {
+        position: relative;
+        left: -18px;
+    }
 }
-}
+
 .nav-active_t {
     width: 100px;
     height: 5px;
@@ -15,31 +16,32 @@
     right: -395px;
 }
 
- 
+
 
 @media (max-width: 1200px) {
-.nav-active_t {
-    width: 90px;
-    height: 5px;
-    object-fit: contain;
-    background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
-   
-    top: 88px;
-      position: relative;
-    right: -350px;
+    .nav-active_t {
+        width: 90px;
+        height: 5px;
+        object-fit: contain;
+        background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
+
+        top: 88px;
+        position: relative;
+        right: -350px;
+    }
 }
-}
+
 @media (min-width: 992px) and (max-width:1199px) {
-.nav-active_t {
-    width: 90px;
-    height: 5px;
-    object-fit: contain;
-    background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
-   
-    top: 88px;
-      position: relative;
-    right: -592px;
-}
+    .nav-active_t {
+        width: 90px;
+        height: 5px;
+        object-fit: contain;
+        background-image: linear-gradient(to left, rgba(252, 193, 83, 0), #fcc153 50%, rgba(252, 193, 83, 0));
+
+        top: 88px;
+        position: relative;
+        right: -592px;
+    }
 }
 
 
@@ -48,8 +50,10 @@
     border: 4px solid #fcc153;
     background-image: radial-gradient(circle at 50% 50%, #1c3650, #0c1b2a);
     margin: 25px 0;
-    margin-right: 30px;
-    z-index: 1;
+    margin-left: 30px;
+
+    position: relative;
+    height: 650px;
 
 }
 
@@ -71,6 +75,7 @@
     left: 0;
     right: 0;
     border: 7px solid transparent;
+
 
 }
 
@@ -111,14 +116,19 @@ p {
     border-bottom-color: white;
 }
 
-.row {
-    justify-content: center;
+/*.row {
+  /*  justify-content: center;
     text-align: -webkit-center;
     /* margin: auto; */
-    left: 20px;
+/*  left: 20px;
+    position: relative;
+        justify-content: center;
+    text-align: -webkit-center;
+    /* margin: auto; */
+/*   left: 17px;
     position: relative;
 }
-
+*/
 
 .tickets-corner {
     width: 40px;
@@ -405,7 +415,26 @@ p {
     opacity: 0.7;
 }
 
+.button_t {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    color: #0c1d2e;
+    text-align: center;
+    width: 201px;
+    height: 68px;
+    background: url("../img/button.svg") no-repeat center;
+    line-height: 2.4;
 
+    transition: top .3s;
+    bottom: -35px;
+    position: absolute;
+    z-index: 1;
+
+
+
+
+}
 
 
 @media (max-width: 976px) {}
